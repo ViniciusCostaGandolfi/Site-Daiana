@@ -7,7 +7,7 @@
     border-radius: 1rem;
     background-color: #a5c639;
     padding: 1rem;
-    margin-right: 2rem;
+    
     transition: 0.5s;
     display: flex;
     flex-direction: row;
@@ -20,4 +20,19 @@
 
 .menu__ancora:hover {
     background-color: #64b844;
+}
+
+@media screen and (min-width: 0) {
+    .menu__ancora {
+        width: auto;
+        margin: 0.5rem;
+        
+    }
+
+}
+@media screen and (min-width: 768px) {
+    .menu__ancora {
+        margin: 0 2rem 0 0;
+    }
+
 }

@@ -5,3 +5,26 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+
+@media screen and (min-width: 0) {
+    .cabeçalho {
+        flex-direction: column;
+        flex-grow: 1;
+        padding: 0;
+        
+    }
+    .cabeçalho__logo {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .cabeçalho {
+        flex-direction: row;
+        
+    }
+    .cabeçalho__logo {
+        width: 40%;
+    }
+}

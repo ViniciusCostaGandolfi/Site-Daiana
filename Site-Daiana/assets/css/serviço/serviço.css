@@ -2,7 +2,7 @@
     background: #fdfdfd;
     display: flex;
     flex-direction: column;
-    width: 27%;
+    
 	margin: 2%;
     text-align: center;
     justify-content: space-between;
@@ -12,5 +12,32 @@
 
 }
 
+@media screen and (min-width: 0) {
+    .serviço {
+        flex-direction: column;
+        width: 94%;
+
+    }
+
+}
+@media screen and (min-width: 768px) {
+    .serviço {
+        flex-direction: row;
+        width: 43%;
+
+        
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .serviço {
+        flex-direction: row;
+        width: 27%;
+
+        
+    }
+
+}
 
 

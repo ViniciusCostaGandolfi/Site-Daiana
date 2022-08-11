@@ -1,7 +1,22 @@
 .MVVs {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     width: 100%;
     padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 0) {
+    .MVVs {
+        flex-direction: column;
+
+    }
+
+}
+@media screen and (min-width: 768px) {
+    .MVVs {
+        flex-direction: row;
+
+        
+    }
+
 }

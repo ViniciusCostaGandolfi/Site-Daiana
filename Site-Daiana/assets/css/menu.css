@@ -5,3 +5,20 @@
     overflow: auto;
     flex-direction: row;
 }
+
+@media screen and (min-width: 0) {
+    .menu {
+        flex-direction: column;
+        padding: 1rem 0;
+        width: 100%;
+        
+    }
+
+}
+@media screen and (min-width: 768px) {
+    .menu {
+        flex-direction: row;
+        
+    }
+
+}

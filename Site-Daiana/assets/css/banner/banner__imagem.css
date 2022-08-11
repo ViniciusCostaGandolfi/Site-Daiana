@@ -6,11 +6,39 @@
 }
 @media screen and (min-width: 0) {
     .banner__imagem {
-        height: 100vh;
+        height: 40vh;
     }
 }
 @media screen and (min-width: 768px) {
     .banner__imagem {
         height: 60vh;
     }
+}
+
+.banner__imagem--index {
+    background: url('../../img/banner-inicio.jpg') no-repeat center / cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner__imagem--serviços {
+    background: url('../../img/banner-serviços.jpg') no-repeat center / cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner__imagem--sobre {
+    background: url('../../img/banner-sobre.jpg') no-repeat center / cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner__imagem--contato {
+    background: url('../../img/banner-contato.jpg') no-repeat center / cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
