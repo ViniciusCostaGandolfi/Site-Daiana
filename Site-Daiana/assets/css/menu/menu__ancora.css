@@ -1,0 +1,23 @@
+.menu__ancora {
+    font-family: Roboto;
+    text-align: center;
+    color: #f9f9f9;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    background-color: #a5c639;
+    padding: 1rem;
+    margin-right: 2rem;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 15%;
+}
+.menu__ancora--ativo {
+    font-weight: bold;
+}
+
+.menu__ancora:hover {
+    background-color: #64b844;
+}

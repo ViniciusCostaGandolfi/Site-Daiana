@@ -1,0 +1,7 @@
+.serviços {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Roboto;
+    padding-bottom: 5rem;
+    justify-content: space-between;
+}

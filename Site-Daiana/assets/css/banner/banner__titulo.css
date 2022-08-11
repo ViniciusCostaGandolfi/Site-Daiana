@@ -1,0 +1,10 @@
+.banner__titulo {
+    padding: 2.5rem;
+    color: #fdfdfd;
+    font-family: Roboto;
+    text-shadow: 0 4px 4px rgb(0 0 0 / 75%);
+    text-align: center;
+    width: 100%;
+    font-size: 6rem;
+
+}

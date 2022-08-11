@@ -1,0 +1,16 @@
+.banner__imagem {
+    background: url('../../img/banner.jpg') no-repeat center / cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+@media screen and (min-width: 0) {
+    .banner__imagem {
+        height: 100vh;
+    }
+}
+@media screen and (min-width: 768px) {
+    .banner__imagem {
+        height: 60vh;
+    }
+}

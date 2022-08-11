@@ -1,0 +1,12 @@
+.serviço__botão {
+    color: #f9f9f9;
+    background-color: #a5c639;
+    padding: 1rem;
+    border-radius: 0 0 1rem 1rem;
+    transition: 0.5s;
+}
+
+.serviço__botão:hover {
+    background-color: #64b844;
+    cursor: pointer;
+}
