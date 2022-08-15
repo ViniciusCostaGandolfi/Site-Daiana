@@ -4,6 +4,7 @@
     font-family: Roboto;
     padding-bottom: 5rem;
     justify-content: space-between;
+    align-items: center;
 }
 
 @media screen and (min-width: 0) {
