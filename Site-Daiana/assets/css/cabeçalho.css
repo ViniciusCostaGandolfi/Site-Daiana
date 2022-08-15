@@ -6,6 +6,11 @@
     justify-content: space-between;
 }
 
+.cabeçalho__ancora {
+    width: 100%;
+}
+
+
 
 
 @media screen and (min-width: 0) {
@@ -25,6 +30,6 @@
         
     }
     .cabeçalho__logo {
-        width: 40%;
+        width: 50%;
     }
 }

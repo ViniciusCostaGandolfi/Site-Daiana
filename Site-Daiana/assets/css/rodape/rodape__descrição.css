@@ -1,7 +1,7 @@
-.sobre-nos__descrição {
+.rodape__descrição {
     font-family: Roboto;
+    text-align: center;
     font-size: 2rem;
     color: grey;
-    padding: 1rem;
-
+    padding: 0;
 }
