@@ -2,7 +2,7 @@
     position: fixed;
     background-color: #25D366;
     width: 150px;
-    top: 95%;
+    
     right: 5%;
     padding: 0.5rem;
     border-radius: 2rem;
@@ -13,6 +13,20 @@
 
 .whatsapp:hover {
     cursor: pointer;
-    background-color: #299b53;;
+    background-color: #299b53;
 
 }
+
+@media screen and (min-width: 0px) {
+    .whatsapp {
+        top: 93%
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .whatsapp {
+        top: 95%
+    }
+    
+}
+
