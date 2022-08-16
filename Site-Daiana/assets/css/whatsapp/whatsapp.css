@@ -2,13 +2,15 @@
     position: fixed;
     background-color: #25D366;
     width: 150px;
-    
-    right: 5%;
+    right: 3%;
     padding: 0.5rem;
     border-radius: 2rem;
     display: flex;
     align-items: center;
     transition: 0.5s;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.1rem;
 }
 
 .whatsapp:hover {
@@ -19,13 +21,13 @@
 
 @media screen and (min-width: 0px) {
     .whatsapp {
-        top: 92%
+        bottom: 3%;
     }
 }
 
 @media screen and (min-width: 768px) {
     .whatsapp {
-        top: 95%
+        bottom: 1%;
     }
     
 }

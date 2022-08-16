@@ -4,9 +4,12 @@
     padding: 1rem;
     border-radius: 0 0 1rem 1rem;
     transition: 0.5s;
+    font-size: 1.5rem;
 }
 
+/*
 .serviço__botão:hover {
     background-color: #64b844;
     cursor: pointer;
 }
+*/
